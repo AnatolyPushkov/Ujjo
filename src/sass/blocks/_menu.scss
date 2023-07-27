@@ -1,0 +1,44 @@
+.menu {
+    &__cover {
+        border: 1px solid #000;
+        border-top: none;
+    }
+    &__nav {
+        margin-top: 20px;
+        position: absolute;
+        padding: 0 20px; 
+        display: grid;
+        grid-template-columns: 420px 460px 430px 400px;
+    }
+    &__items {
+        position: relative;
+        background: url(../images/img/img_01.png) center (center/cover) no-repeat;
+        width: 436.141px;
+        height: 658.438px;
+        padding: 190px 20px 20px 20px;
+        &-wrapper {
+            position: absolute;
+            top: 150px;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+    }
+    &__title {
+        text-align: center;
+        font-size: 18px;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+    &__descr {
+        text-align: center;
+        font-size: 32px;
+        text-transform: uppercase;
+    }
+    &__img {
+        padding: 10px 0;
+    }
+}
+

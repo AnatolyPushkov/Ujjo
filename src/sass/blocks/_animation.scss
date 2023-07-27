@@ -1,0 +1,36 @@
+@keyframes papper {
+    0% {
+        transform: translateZ(0);
+    }
+    to {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+.animation {
+    &__wrapper {
+        border: 1px solid#000;
+        border-top: none;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+    }
+    &__items {
+        margin: 12px 0;
+        display: flex;
+        animation: papper 2s linear infinite;
+        flex-shrink: 0;
+        white-space: nowrap;
+        &-images {
+            padding: 15px 14px;
+        }
+        &-descr {
+            width: 260px;
+            text-align: center;
+            padding: 20px 14px;
+            margin-right: 28px;
+            text-transform: uppercase;
+            font-size: 17px;
+        }
+    }
+}

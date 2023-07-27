@@ -1,0 +1,26 @@
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header.scss';
+@import 'blocks/promo';
+@import 'blocks/quote';
+@import 'blocks/menu';
+@import 'blocks/animation';
+@import 'blocks/demonstration';
+@import 'blocks/story';
+@import 'blocks/banner';
+@import 'blocks/footer';

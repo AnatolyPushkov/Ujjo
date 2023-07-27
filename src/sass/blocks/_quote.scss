@@ -1,0 +1,20 @@
+.quote {
+    &__wrapper {
+        border: 1px solid #000;
+        border-top: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__descr {
+        text-align: center;
+        font-size: 65px;
+        line-height: 72.576px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        padding: 70px 52px 60px 52px;
+    }
+    &__image {
+        padding: 60px 30px;
+    }
+
+}

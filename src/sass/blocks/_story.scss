@@ -1,0 +1,40 @@
+.story {
+    &__wrapper {
+        display: flex;
+    }
+    &__left {
+        border: 1px solid #000;
+        border-top: none;
+        border-right: none;
+        width: 700px;
+        &-title {
+            padding: 55px 55px;
+            text-align: center;
+            font-size: 58px;
+            text-transform: uppercase;
+        }
+        &-images {
+            height: 472px;
+        }
+        &-img {
+            width: 100%;
+        }
+    }
+    &__right {
+        position: relative;
+        border: 1px solid #000;
+        border-top: none;
+        width: 700px;
+        &-p {
+            top: 135px;
+            left: 150px;
+            position: absolute;
+        }
+        &-descr {
+            padding-bottom: 40px;
+            width: 380px;
+            min-height: 24px;
+            text-align: center;
+        }
+    }
+}

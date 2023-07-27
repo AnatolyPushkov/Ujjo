@@ -1,0 +1,23 @@
+.footer {
+    margin-top: 755px;
+    &__wrapper {
+        border: 1px solid #000;
+        border-top: none;
+        background-color: #CDFD3B;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 90px;
+
+        text-align: center;
+        font-size: 15px;
+        text-transform: uppercase;
+        list-style-type: none;
+    }
+    &__link {
+        text-decoration: none;
+        &:hover {
+            color: #8B83F6;
+            transition: 0.5s;
+        }
+    }
+}
